@@ -12,9 +12,9 @@
 
 * Flex-box
 
-## Feito por:
+##Feito por:
 
-### Gabriel Correia
+###Gabriel Correia
 
 ### Linkedin: linkedin.com/in/gabriel-correia-eboy/
 
