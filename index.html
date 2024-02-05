@@ -4,31 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <header>
-        <main class="apresentacao">
-            <section class="apresentacao__conteudo">
-                <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível 
-                    <strong class="titulo-destaque">com um Front-end de qualidade! </strong>
-                </h1>
-                <p class="apresentacao__conteudo__texto">
-                    Olá! Sou Gabriel Correia, desenvolvedor em processo de crescimento, buscando novos ideais na programação, e sempre abraçando a tecnologia. Vamos conversar?
-                </p>
-                <div class="apresentacao__links">
-                <a class="apresentacao__links__link" href="https://www.instagram.com/bielcorreias/">Instagram</a>
-                <a class="apresentacao__links__link" href="https://github.com/eboylixo">GitHub</a>
-                </div>
-            </section>
-            <div>
-                <img src="imagem.JPG"  width="320" height="305" alt="Foto do gabriel tomando café">
-            </div>
-            
-        </main>
-        <footer>
-            
-        </footer>
+    <header class="cabecalho">
+        <nav    class="cabecalho__menu">
+            <a  class="cabecalho__menu__link" href="./index.html">Home</a>
+            <a  class="cabecalho__menu__link" href="./about.html">Sobre mim</a>
+            <a  class="cabecalho__menu__link" href="./curriculo.html">Curriculo</a>
+        </nav>
     </header>
-</body>
-</html>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível 
+                <strong class="titulo-destaque">com um Front-end de qualidade! </strong>
+            </h1>
+            <p class="apresentacao__conteudo__texto">
+                Olá! Sou Gabriel Correia, desenvolvedor em processo de crescimento, buscando novos ideais na programação, e sempre abraçando a tecnologia. Vamos conversar?
+            </p>
+            <div class="apresentacao__links">
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+                <!-- <a class="apresentacao__links__link" href="https://www.instagram.com/bielcorreias/">Instagram</a> -->
+                <a class="apresentacao__links__navegacao" href="https://github.com/eboylixo">
+                    <img src="./assets/github.png" alt="">
+                    GitHub</a>
+                    <a class="apresentacao__links__navegacao" href="https://www.linkedin.com/in/gabriel-correia-eboy/">
+                        <img src="./assets/linkedin.png" alt="">
+                        Linkedin</a>
+                        <a class="apresentacao__links__navegacao" href="https://www.twitch.tv/negobicudo">
+                            <img src="./assets/twitch.png" alt="">
+                            Twitch</a>
+                            
+                        </div>
+                    </section>
+                    <div class="perfil">
+                        <img src="./assets/imagem.JPG" width="520" height="480" style="border-radius: 50%;"  alt="Foto do gabriel tomando café">
+                    </div>
+                    
+                </main>
+                <footer class="rodape">
+                    <p>Desenvolvido por Gabriel Correia</p>
+                </footer>
+                
+            </body>
+            </html>
