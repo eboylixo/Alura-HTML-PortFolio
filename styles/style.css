@@ -120,7 +120,7 @@ body {
     color: rgb(255, 255, 255);
     font-family: var(--fonte-secundaria);
 }
-.apresentacao__links__link:hover{
+.apresentacao__links__navegacao:hover{
     background-color: var(--cor-hover-link);
     padding: 3%;
 }
@@ -149,8 +149,6 @@ body {
         flex-direction: column-reverse;
         padding: 5%;
     }
-    
-
     .apresentacao__conteudo{
         width: auto;
     }
